@@ -1,0 +1,210 @@
+#introPage{
+    color: white;
+    background-image: linear-gradient(blue , red);
+}
+#chong, #hong{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-size: 70px;
+}
+#introduction{
+    font-family: "Water Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    animation-name: slideInLeft;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+#hong{
+    font-style: oblique;
+    margin-top: 100px;
+}
+#chong{
+    font-style: italic;
+    margin-bottom: 180px;
+    margin-top: 50px;
+    margin-left: -100px;
+}
+#websiteLocator{
+    color: white;
+    font-size: 30px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    animation-name: opacityChange;
+    animation-duration: 7s;
+    animation-iteration-count: 1;
+}
+.hongPlayer{
+    margin-top: -150px;
+    margin-left: 100px;
+}
+@keyframes slideInLeft{
+    from{
+        transform: translateX(-100%);
+        opacity: 0.7;
+    }to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes opacityChange{
+    from{
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
+}
+.uL{
+    font-size: 22px;
+}
+.uL li{
+    margin-left: 100px;
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    animation-name: italicToNormalFontStyling;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+@keyframes borderEffect1{
+    from{
+        border-top: 2px blue solid;
+        border-bottom: 2px red solid;
+    }to{
+        border-top: 2px red solid;
+        border-bottom: 2px blue solid;
+    }
+}
+@keyframes rescale{
+    from{
+        scale: 0.8;
+        opacity: 0.5;
+    }to{
+        scale: 1;
+        opacity: 1;
+    }
+}
+#mainBody{
+    animation-duration: 2s;
+    animation-name: rescale;
+    animation-iteration-count: 1;
+}
+@keyframes italicToNormalFontStyling{
+    from{
+        font-style: italic;
+    }to{
+        font-style: normal;
+    }
+}
+#home{
+    height: 700px;
+    background-image: linear-gradient(white, black);
+    margin-top: -20px;
+}
+#webHeading{
+    font-size: 60px;
+    font-family: "Water Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    padding-top: 30px;
+    float: left;
+}
+#about{
+    height: 700px;
+    background-color: white;
+    color: black;
+}
+#aboutHeading{
+    margin-top: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+.line{
+    background-color: darkblue;
+    width: 100px;
+    height: 15px;
+    border-radius: 10px;
+}
+.informationDivs{
+    border: 2px black ridge;
+    height: 550px;
+}
+.informationDiv{
+    font-size: 25px;
+    line-height: 2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#quote{
+    font-weight: bolder;
+    line-height: 1.5;
+    margin-top: 30px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: italic;
+    font-size: 40px;
+    text-shadow: 5px 5px 5px grey;
+    padding: 10px;
+    border-bottom: black 2px solid;
+    border-radius: 20px;
+    border-top: black 2px solid;
+}
+#beltsHeading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    margin-top: 50px;
+}
+.belt p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.belt{
+    margin-bottom: 30px;
+}
+#uniformHeading{
+    font-size: 40px;
+    font-family: monospace;
+}
+#wiseQuote{
+    font-family: Dancing Script;
+    font-weight: bold;
+    font-size: 40px;
+}
+#wiseQuoter{
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -10px;
+    float: right;
+    margin-right: 100px;
+}
+#wisestQuote{
+    font-style: italic;
+    font-weight: 500;
+}
+.belt img{
+    height: 200px;
+}
+#organisationsTitle{
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    margin-top: 50px;
+}
+.organisationImages{
+    border: 10px grey solid;
+}
+.organisationNames{
+    font-size: 30px;
+    font-family: Dancing Script;
+}
+#wt, #itf{
+    border: 3px black ridge;
+    padding-top: 50px;
+}
+#learn iframe{
+    border: 5px grey ridge;
+}

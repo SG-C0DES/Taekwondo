@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title>Our Belts</title>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Water+Brush&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Water+Brush&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Waterfall&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Dancing+Script:wght@400..700&family=Water+Brush&display=swap" rel="stylesheet">
+    </head>
+    <body style="animation-name: rescale; animation-duration: 2s; animation-iteration-count: 1;">
+        <nav class="navbar-inverse navBar navbar navbar-dark" style="padding: 15px;">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                    <img src="menu.png" width="50px" height="50px">
+                </button>
+                <a class="navbar-brand" style="font-size: 60px; font-family: 'Waterfall', cursive; font-weight: 400; font-style: normal; border-top: 2px blue solid; border-left: 2px blue solid; border-bottom: 2px red solid; border-right: 2px red solid; padding: 15px; border-radius: 10px; animation-name: borderEffect1; animation-iteration-count: infinite; animation-duration: 10s; color: white; box-shadow: 5px 5px 10px white;" href="main.html">Taekwondo</a> 
+            </div>
+            <div class="navbar-collapse collapse" id="navbar">
+                <ul class="nav navbar-nav uL">
+                    <li><a href="about.html">About Taekwondo</a></li>
+                    <li><a href="belts.html">Our Belts</a></li>
+                    <li><a href="organisations.html" style="color: white; font-weight: bold;">Organisations</a></li>
+                    <li><a href="learn.html">Learn Taekwondo</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section id="organisations">
+            <center>
+                <h1 id="organisationsTitle">Organisations for Taekwodno</h1>
+                <div class="line" style="margin-bottom: 20px;"></div>
+                <div class="col-lg-6 col-md-6" id="wt" data-toggle="modal" data-target="#wtModal">
+                    <img class="img-responsive organisationImages" src="wt if.jpeg"> 
+                    <br>
+                    <br>
+                    <p class="text-info organisationNames">World Taekwondo</p>
+                </div>
+                <div class="col-lg-6 col-md-6" id="itf" data-toggle="modal" data-target="#itfModal">
+                    <img class="img-responsive organisationImages" src="itf.jpeg"> 
+                    <br>
+                    <br>
+                    <p class="text-info organisationNames">International Taekwondo Federation</p>
+                </div>
+                <div class="modal fade" id="wtModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <div class="modal-title" style="font-size: 30px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">World Taekwondo (WT)</div>
+                            </div>
+                            <div class="modal-body">
+                                <iframe src="http://worldtaekwondo.org/index.html" height="500px" width="100%"></iframe>
+                                <br>
+                                <h5 class="text-muted" style="font-size: 22px;">Visit the site: <a href="http://worldtaekwondo.org/index.html" target="_blank">http://worldtaekwondo.org/index.html</a></h5>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-primary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="itfModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <div class="modal-title" style="font-size: 30px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">World Taekwondo (WT)</div>
+                            </div>
+                            <div class="modal-body">
+                                <iframe src="https://itftkd.sport/" height="500px" width="100%"></iframe>
+                                <br>
+                                <h5 class="text-muted" style="font-size: 22px;">Visit the site: <a href="https://itftkd.sport/" target="_blank">https://itftkd.sport/</a></h5>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-success" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </center>
+        </section>
+    </body>
+</html>
